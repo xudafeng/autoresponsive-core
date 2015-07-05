@@ -1,0 +1,40 @@
+{
+  "name": "autoresponsive-common",
+  "version": "1.0.0",
+  "description": "auto responsive grid layout library",
+  "keywords": [
+    "react",
+    "responsive",
+    "layout",
+    "layout component",
+    "ui component",
+    "ui",
+    "component"
+  ],
+  "main": "index.js",
+  "author": "xudafeng@126.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xudafeng/autoresponsive-common.git"
+  },
+  "scripts": {
+    "lint": "make lint",
+    "test": "make test"
+  },
+  "dependencies": {
+  },
+  "precommit": [
+    "lint"
+  ],
+  "devDependencies": {
+    "mocha": "*",
+    "istanbul-harmony": "~0.3.0",
+    "should": "*",
+    "jsx-loader": "^0.12.2",
+    "json-loader": "^0.5.2",
+    "babel-core": "^5.x",
+    "babel-loader": "^5.x",
+    "eslint-plugin-react": "~2.5.2"
+  },
+  "licenses": "MIT"
+}
