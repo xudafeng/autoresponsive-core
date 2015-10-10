@@ -17,10 +17,8 @@ travis: install
 		./node_modules/.bin/_mocha \
 		--report lcovonly \
 		-- -t 20000 -r should-http test/*.test.js
-pull:
-	@git pull origin ${git_version}
-push:
-	@git push origin ${git_version}
+build:
+	@${npm_bin}/babel lib/ --out-dir dist/
 lint:
 	@${npm_bin}/eslint lib
 server: install
