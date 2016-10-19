@@ -28,15 +28,15 @@
     "lint"
   ],
   "devDependencies": {
-    "mocha": "*",
-    "istanbul-harmony": "~0.3.0",
-    "should": "*",
-    "jsx-loader": "^0.12.2",
-    "json-loader": "^0.5.2",
     "babel": "5.8.23",
-    "babel-core": "^5.x",
+    "babel-core": "^6.17.0",
     "babel-loader": "^5.x",
-    "eslint-plugin-react": "~2.5.2"
+    "eslint-plugin-react": "~2.5.2",
+    "istanbul-harmony": "~0.3.0",
+    "json-loader": "^0.5.2",
+    "jsx-loader": "^0.12.2",
+    "mocha": "*",
+    "should": "*"
   },
   "licenses": "MIT"
 }

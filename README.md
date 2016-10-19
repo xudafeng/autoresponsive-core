@@ -1,5 +1,4 @@
-autoresponsive-common
-=====================
+# autoresponsive-common
 
 ## Installation
 
