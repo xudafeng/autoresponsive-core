@@ -17,12 +17,11 @@
     "url": "https://github.com/xudafeng/autoresponsive-common.git"
   },
   "scripts": {
-    "lint": "make lint",
-    "test": "make test",
-    "build": "make build"
+    "lint": "eslint lib",
+    "test": "mocha",
+    "build": "babel lib/ --out-dir dist/"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "precommit": [
     "lint"
   ],
