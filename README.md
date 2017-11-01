@@ -2,7 +2,7 @@
 
 ## Installation
 
-```shell
+``` bash
 $ npm install autoresponsive-common --save
 ```
 
