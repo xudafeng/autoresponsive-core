@@ -3,7 +3,7 @@
 ## Installation
 
 ``` bash
-$ npm install autoresponsive-common --save
+$ npm i autoresponsive-common --save
 ```
 
 ## Contributing
