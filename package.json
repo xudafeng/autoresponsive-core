@@ -1,9 +1,8 @@
 {
-  "name": "autoresponsive-common",
-  "version": "1.0.2",
+  "name": "autoresponsive-core",
+  "version": "1.0.0",
   "description": "auto responsive grid layout library",
   "keywords": [
-    "react",
     "responsive",
     "layout",
     "layout component",
