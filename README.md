@@ -1,9 +1,9 @@
-# autoresponsive-common
+# autoresponsive-core
 
 ## Installation
 
 ``` bash
-$ npm i autoresponsive-common --save
+$ npm i autoresponsive-core --save
 ```
 
 ## Contributing
@@ -12,4 +12,4 @@ See our [CONTRIBUTING.md](./CONTRIBUTING.md) for information on how to contribut
 
 ## License
 
-MIT Licensed. Copyright (c) xdf 2015.
+MIT Licensed.
