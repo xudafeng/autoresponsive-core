@@ -1,6 +1,6 @@
 {
   "name": "autoresponsive-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "auto responsive grid layout library",
   "keywords": [
     "responsive",
@@ -18,7 +18,8 @@
   "scripts": {
     "lint": "eslint lib",
     "test": "mocha",
-    "build": "babel lib/ --out-dir dist/"
+    "build": "babel lib/ --out-dir dist/",
+    "prepublish": "npm run build"
   },
   "dependencies": {},
   "precommit": [
