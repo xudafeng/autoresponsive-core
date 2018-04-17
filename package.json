@@ -19,7 +19,8 @@
     "lint": "eslint lib",
     "test": "mocha",
     "build": "babel lib/ --out-dir dist/",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "contributor": "git-contributor"
   },
   "dependencies": {},
   "precommit": [
@@ -30,11 +31,11 @@
     "babel-core": "^6.17.0",
     "babel-loader": "^5.x",
     "eslint-plugin-react": "~2.5.2",
+    "git-contributor": "^1.0.5",
     "istanbul-harmony": "~0.3.0",
     "json-loader": "^0.5.2",
     "jsx-loader": "^0.12.2",
-    "mocha": "*",
-    "should": "*"
+    "mocha": "*"
   },
   "licenses": "MIT"
 }
